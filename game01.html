@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World! My Second project...</title>
+    <style>
+        body{
+            background-color: #6363b6ad;
+            color: beige;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+  <div>
+
+
+    <h1>Hello, World!</h1>
+    <p>Jogo de adivinhação!</p>
+  </div>
+
+    <div>
+        <label>Digite um Numero entre 1 a 10 </label>
+        <style>
+            body{
+                color: blueviolet;
+                font: normal 15pt Arial;
+         }
+        </style>
+        <input type="number" id="playernb" min="1" max="10">
+        <button onclick="playnumb()">Adivinhar!</button>
+    </div>
+    
+    <label>Acertos:</label>
+
+    <div><span id="newnumber"></span></div>
+
+</body>
+<script src="./src/script001.js"></script>
+</html>
